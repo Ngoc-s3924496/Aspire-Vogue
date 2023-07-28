@@ -14,6 +14,7 @@
 		ECF456112A73779C0053587A /* Aspire_VogueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF456102A73779C0053587A /* Aspire_VogueTests.swift */; };
 		ECF4561B2A73779C0053587A /* Aspire_VogueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF4561A2A73779C0053587A /* Aspire_VogueUITests.swift */; };
 		ECF4561D2A73779C0053587A /* Aspire_VogueUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF4561C2A73779C0053587A /* Aspire_VogueUITestsLaunchTests.swift */; };
+		ECF4562A2A737A4E0053587A /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF456292A737A4E0053587A /* WelcomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		ECF456162A73779C0053587A /* Aspire VogueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aspire VogueUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECF4561A2A73779C0053587A /* Aspire_VogueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aspire_VogueUITests.swift; sourceTree = "<group>"; };
 		ECF4561C2A73779C0053587A /* Aspire_VogueUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aspire_VogueUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ECF456292A737A4E0053587A /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				ECF456012A73779B0053587A /* ContentView.swift */,
 				ECF456032A73779C0053587A /* Assets.xcassets */,
 				ECF456052A73779C0053587A /* Preview Content */,
+				ECF456292A737A4E0053587A /* WelcomeView.swift */,
 			);
 			path = "Aspire Vogue";
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECF456022A73779B0053587A /* ContentView.swift in Sources */,
+				ECF4562A2A737A4E0053587A /* WelcomeView.swift in Sources */,
 				ECF456002A73779B0053587A /* Aspire_VogueApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
