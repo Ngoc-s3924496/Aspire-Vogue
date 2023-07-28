@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECF456002A73779B0053587A /* Aspire_VogueApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF455FF2A73779B0053587A /* Aspire_VogueApp.swift */; };
+		ECF456022A73779B0053587A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF456012A73779B0053587A /* ContentView.swift */; };
+		ECF456042A73779C0053587A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECF456032A73779C0053587A /* Assets.xcassets */; };
+		ECF456072A73779C0053587A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECF456062A73779C0053587A /* Preview Assets.xcassets */; };
+		ECF456112A73779C0053587A /* Aspire_VogueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF456102A73779C0053587A /* Aspire_VogueTests.swift */; };
+		ECF4561B2A73779C0053587A /* Aspire_VogueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF4561A2A73779C0053587A /* Aspire_VogueUITests.swift */; };
+		ECF4561D2A73779C0053587A /* Aspire_VogueUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF4561C2A73779C0053587A /* Aspire_VogueUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECF4560D2A73779C0053587A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECF455F42A73779B0053587A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECF455FB2A73779B0053587A;
+			remoteInfo = "Aspire Vogue";
+		};
+		ECF456172A73779C0053587A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECF455F42A73779B0053587A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECF455FB2A73779B0053587A;
+			remoteInfo = "Aspire Vogue";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECF455FC2A73779B0053587A /* Aspire Vogue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aspire Vogue.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECF455FF2A73779B0053587A /* Aspire_VogueApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aspire_VogueApp.swift; sourceTree = "<group>"; };
+		ECF456012A73779B0053587A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ECF456032A73779C0053587A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECF456062A73779C0053587A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ECF4560C2A73779C0053587A /* Aspire VogueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aspire VogueTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECF456102A73779C0053587A /* Aspire_VogueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aspire_VogueTests.swift; sourceTree = "<group>"; };
+		ECF456162A73779C0053587A /* Aspire VogueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aspire VogueUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECF4561A2A73779C0053587A /* Aspire_VogueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aspire_VogueUITests.swift; sourceTree = "<group>"; };
+		ECF4561C2A73779C0053587A /* Aspire_VogueUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aspire_VogueUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECF455F92A73779B0053587A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF456092A73779C0053587A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF456132A73779C0053587A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECF455F32A73779B0053587A = {
+			isa = PBXGroup;
+			children = (
+				ECF455FE2A73779B0053587A /* Aspire Vogue */,
+				ECF4560F2A73779C0053587A /* Aspire VogueTests */,
+				ECF456192A73779C0053587A /* Aspire VogueUITests */,
+				ECF455FD2A73779B0053587A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECF455FD2A73779B0053587A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECF455FC2A73779B0053587A /* Aspire Vogue.app */,
+				ECF4560C2A73779C0053587A /* Aspire VogueTests.xctest */,
+				ECF456162A73779C0053587A /* Aspire VogueUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECF455FE2A73779B0053587A /* Aspire Vogue */ = {
+			isa = PBXGroup;
+			children = (
+				ECF455FF2A73779B0053587A /* Aspire_VogueApp.swift */,
+				ECF456012A73779B0053587A /* ContentView.swift */,
+				ECF456032A73779C0053587A /* Assets.xcassets */,
+				ECF456052A73779C0053587A /* Preview Content */,
+			);
+			path = "Aspire Vogue";
+			sourceTree = "<group>";
+		};
+		ECF456052A73779C0053587A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ECF456062A73779C0053587A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ECF4560F2A73779C0053587A /* Aspire VogueTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECF456102A73779C0053587A /* Aspire_VogueTests.swift */,
+			);
+			path = "Aspire VogueTests";
+			sourceTree = "<group>";
+		};
+		ECF456192A73779C0053587A /* Aspire VogueUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECF4561A2A73779C0053587A /* Aspire_VogueUITests.swift */,
+				ECF4561C2A73779C0053587A /* Aspire_VogueUITestsLaunchTests.swift */,
+			);
+			path = "Aspire VogueUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECF455FB2A73779B0053587A /* Aspire Vogue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECF456202A73779C0053587A /* Build configuration list for PBXNativeTarget "Aspire Vogue" */;
+			buildPhases = (
+				ECF455F82A73779B0053587A /* Sources */,
+				ECF455F92A73779B0053587A /* Frameworks */,
+				ECF455FA2A73779B0053587A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Aspire Vogue";
+			productName = "Aspire Vogue";
+			productReference = ECF455FC2A73779B0053587A /* Aspire Vogue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECF4560B2A73779C0053587A /* Aspire VogueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECF456232A73779C0053587A /* Build configuration list for PBXNativeTarget "Aspire VogueTests" */;
+			buildPhases = (
+				ECF456082A73779C0053587A /* Sources */,
+				ECF456092A73779C0053587A /* Frameworks */,
+				ECF4560A2A73779C0053587A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECF4560E2A73779C0053587A /* PBXTargetDependency */,
+			);
+			name = "Aspire VogueTests";
+			productName = "Aspire VogueTests";
+			productReference = ECF4560C2A73779C0053587A /* Aspire VogueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECF456152A73779C0053587A /* Aspire VogueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECF456262A73779C0053587A /* Build configuration list for PBXNativeTarget "Aspire VogueUITests" */;
+			buildPhases = (
+				ECF456122A73779C0053587A /* Sources */,
+				ECF456132A73779C0053587A /* Frameworks */,
+				ECF456142A73779C0053587A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECF456182A73779C0053587A /* PBXTargetDependency */,
+			);
+			name = "Aspire VogueUITests";
+			productName = "Aspire VogueUITests";
+			productReference = ECF456162A73779C0053587A /* Aspire VogueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECF455F42A73779B0053587A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					ECF455FB2A73779B0053587A = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					ECF4560B2A73779C0053587A = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = ECF455FB2A73779B0053587A;
+					};
+					ECF456152A73779C0053587A = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = ECF455FB2A73779B0053587A;
+					};
+				};
+			};
+			buildConfigurationList = ECF455F72A73779B0053587A /* Build configuration list for PBXProject "Aspire Vogue" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECF455F32A73779B0053587A;
+			productRefGroup = ECF455FD2A73779B0053587A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECF455FB2A73779B0053587A /* Aspire Vogue */,
+				ECF4560B2A73779C0053587A /* Aspire VogueTests */,
+				ECF456152A73779C0053587A /* Aspire VogueUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECF455FA2A73779B0053587A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF456072A73779C0053587A /* Preview Assets.xcassets in Resources */,
+				ECF456042A73779C0053587A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF4560A2A73779C0053587A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF456142A73779C0053587A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECF455F82A73779B0053587A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF456022A73779B0053587A /* ContentView.swift in Sources */,
+				ECF456002A73779B0053587A /* Aspire_VogueApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF456082A73779C0053587A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF456112A73779C0053587A /* Aspire_VogueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF456122A73779C0053587A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF4561B2A73779C0053587A /* Aspire_VogueUITests.swift in Sources */,
+				ECF4561D2A73779C0053587A /* Aspire_VogueUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECF4560E2A73779C0053587A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECF455FB2A73779B0053587A /* Aspire Vogue */;
+			targetProxy = ECF4560D2A73779C0053587A /* PBXContainerItemProxy */;
+		};
+		ECF456182A73779C0053587A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECF455FB2A73779B0053587A /* Aspire Vogue */;
+			targetProxy = ECF456172A73779C0053587A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ECF4561E2A73779C0053587A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECF4561F2A73779C0053587A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECF456212A73779C0053587A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aspire Vogue/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Aspire-Vogue";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECF456222A73779C0053587A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aspire Vogue/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Aspire-Vogue";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ECF456242A73779C0053587A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Aspire-VogueTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aspire Vogue.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Aspire Vogue";
+			};
+			name = Debug;
+		};
+		ECF456252A73779C0053587A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Aspire-VogueTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aspire Vogue.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Aspire Vogue";
+			};
+			name = Release;
+		};
+		ECF456272A73779C0053587A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Aspire-VogueUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Aspire Vogue";
+			};
+			name = Debug;
+		};
+		ECF456282A73779C0053587A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Aspire-VogueUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Aspire Vogue";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECF455F72A73779B0053587A /* Build configuration list for PBXProject "Aspire Vogue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF4561E2A73779C0053587A /* Debug */,
+				ECF4561F2A73779C0053587A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECF456202A73779C0053587A /* Build configuration list for PBXNativeTarget "Aspire Vogue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF456212A73779C0053587A /* Debug */,
+				ECF456222A73779C0053587A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECF456232A73779C0053587A /* Build configuration list for PBXNativeTarget "Aspire VogueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF456242A73779C0053587A /* Debug */,
+				ECF456252A73779C0053587A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECF456262A73779C0053587A /* Build configuration list for PBXNativeTarget "Aspire VogueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF456272A73779C0053587A /* Debug */,
+				ECF456282A73779C0053587A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECF455F42A73779B0053587A /* Project object */;
+}
