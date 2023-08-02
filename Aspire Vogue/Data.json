@@ -1,0 +1,273 @@
+[
+    {
+    "id": 1,
+    "name": "Huelley Rose",
+    "description": "Huelley Rose is a well-known brand for its alluring and seductive designs, impressing with figure-hugging silhouettes and strategically placed cut-out details. The brand's use of neutral colors like black, gray, and white allows for versatile outfit choices, ranging from mini skirts to midi dresses. Their garments celebrate the female form, accentuating curves while maintaining a balance of elegance and allure. Huelley Rose prioritizes comfort and confidence, ensuring high-quality materials that feel soft and fit perfectly. With their empowering and modern designs, Huelley Rose appeals to women who embrace their femininity and desire to make a bold statement with their style.",
+    "facebook": "https://www.facebook.com/huelleyrose/",
+    "instagram": "https://www.instagram.com/huelleyrose/?hl=en",
+    "image": ["shop-1-0", "shop-1-1", "shop-1-2", "shop-1-3", "shop-1-4", "shop-1-5", "shop-1-6", "shop-1-7"],
+    "address": "214 Hai Ba Trung, W. Tan Dinh, D. 1, HCMC",
+    "coordinate": {
+        "latitude": 10.788363116716898,
+        "longtitude": 106.69179199559089
+    },
+    "loved": true,
+    "price": "$$$"
+    },
+    {
+    "id": 2,
+    "name": "The SWAN",
+    "description": "The SWAN Closet is a chic and sophisticated fashion brand catering to modern young women. With a diverse color palette, they offer timeless black and white as well as eye-catching candy colors like baby pink and mint green. Embracing the dynamic lifestyle and fashion choices of Gen Z, their designs range from playful two-strap dresses to elegant corset-integrated flare dresses, along with trendy sets of wide-leg pants and tube tops. The brand empowers women to express their individuality through versatile and on-trend ensembles, while their foray into tweed fabric adds a touch of sophistication. The SWAN Closet's creations effortlessly capture contemporary femininity and elegance, leaving a lasting impression on stylish and confident young women.",
+    "facebook": "https://www.facebook.com/SwanShopHcm/",
+    "instagram": "https://www.instagram.com/theswan.closet/?hl=en",
+    "image": ["shop-2-0", "shop-2-1", "shop-2-2", "shop-2-3", "shop-2-4", "shop-2-5", "shop-2-6", "shop-2-7"],
+    "address": "448A Vo Van Tan, W. 5, D. 3, HCMC",
+    "coordinate": {
+        "latitude": 10.769649805662759,
+        "longtitude": 106.6834164244259
+    },
+    "loved": true,
+    "price": "$$"
+    },
+    {
+    "id": 3,
+    "name": "Karlotta",
+    "description": "Karlotta brings forth designs that are feminine and sweet, catering to the diverse fashion styles of modern girls. From simple ensembles to creative creations, Karlotta consistently provides customers with delightful and impressive shopping experiences. The brand was established to convey the spirit and values of Vietnamese fashion, reflecting the confidence and creativity of Vietnamese women. All of Karlotta's products are designed and crafted with dedication and passion, using high-quality materials and impeccable craftsmanship, ensuring comfort and confidence for the wearer.",
+    "facebook": "https://www.facebook.com/karlotta.concept/",
+    "instagram": "https://www.instagram.com/karlotta_concept/?hl=en",
+    "image": ["shop-3-0", "shop-3-1", "shop-3-2", "shop-3-3", "shop-3-4", "shop-3-5", "shop-3-6", "shop-3-7"],
+    "address": "249 Huynh Van Banh, W. 12, D. Phu Nhuan, HCMC",
+    "coordinate": {
+        "latitude": 10.79168999756117,
+        "longtitude": 106.67578426916123
+    },
+    "loved": false,
+    "price": "$$"
+    },
+    {
+    "id": 4,
+    "name": "Tor Ducie",
+    "description": "Tor Ducie is a local Vietnamese fashion brand that excels in creating attractive and minimalistic designs. Their pieces feature clean lines, subtle colors, and body-hugging silhouettes, crafted from comfortable materials like knitted fabric and stretchy ribbed fabric. The brand strikes a perfect balance of sensuality with moderate cut-outs, allowing wearers to showcase their beauty without revealing too much. Tor Ducie's designs offer a higher level of practicality, ensuring versatility and ease of wear for various occasions. The brand's dedication to craftsmanship results in visually stunning and durable clothing, empowering women to express their individuality with grace and charm.",
+    "facebook": "https://www.facebook.com/tor.ducie/",
+    "instagram": "https://www.instagram.com/tor.ducie/?hl=en",
+    "image": ["shop-4-0", "shop-4-1", "shop-4-2", "shop-4-3", "shop-4-4", "shop-4-5", "shop-4-6", "shop-4-7"],
+    "address": "150/27 Nguyen Trai, W. Ben Thanh, D. 1, HCMC",
+    "coordinate": {
+        "latitude": 10.767836763364253,
+        "longtitude": 106.68439268395366
+    },
+    "loved": false,
+    "price": "$"
+    },
+    {
+    "id": 5,
+    "name": "DEAR JOSÉ",
+    "description": "Dear José is a contemporary fashion brand with a romantic, youthful, and free-spirited style. The brand's name, like the opening words of a sweet love letter, desires to bring a breath of fresh air to the wardrobes of Vietnamese women through trendy and adorable designs. Inspired by love, spring, and fairytales, Dear José's essence is defined by its adaptability, capable of keeping up with changing trends and seasons throughout the year. We are meticulous and attentive during the production process, ensuring that our clothing is not only affordable but also withstands the test of time. Dear José's products are crafted by highly skilled artisans in Saigon and beloved by thousands of customers in Vietnam and Southeast Asia.",
+    "facebook": "https://www.facebook.com/dearmyjose/",
+    "instagram": "https://www.instagram.com/dearjose.xo/?hl=en",
+    "image": ["shop-5-0", "shop-5-1", "shop-5-2", "shop-5-3", "shop-5-4", "shop-5-5", "shop-5-6", "shop-5-7"],
+    "address": "49A Nguyen Trai, W. Pham Ngu Lao, D. 1, HCMC",
+    "coordinate": {
+        "latitude": 10.767150848489136,
+        "longtitude": 106.68829088024879
+    },
+    "loved": false,
+    "price": "$$$"
+    },
+    
+    {
+    "id": 6,
+    "name": "Normal Life",
+    "description": "Normal Life is a domestic Vietnamese brand that was established in 2021. Emphasizing simplicity without the need for elaborate details, the key to Normal Life's success lies in its choice of materials and silhouettes. The brand often opts for thick and stretchy fabric that provides a perfect body-hugging fit for their designs. In addition to basic tailored pants and shirts, Normal Life also offers figure-hugging, sensually cut-out designs, and even bikinis for beachwear occasions. Despite being favored by celebrities like Đông Nhi, Ngọc Trinh, and Diệu Nhi, the price of these local brand designs remains remarkably affordable. It is believed that in the future, Normal Life will become a favorable choice for many, not only celebrities but also the general public.",
+    "facebook": "https://www.facebook.com/normallifeco/",
+    "instagram": "https://www.instagram.com/normallife.co/?hl=en",
+    "image": ["shop-6-0", "shop-6-1", "shop-6-2", "shop-6-3", "shop-6-4", "shop-6-5", "shop-6-6", "shop-6-7"],
+    "address": "150/27 Nguyen Trai, D1, HCMC",
+    "coordinate": {
+        "latitude": 10.770219407357866,
+        "longtitude": 106.68981605141339
+    },
+    "loved": true,
+    "price": "$$"
+    },
+    {
+    "id": 7,
+    "name": "Lane JT",
+    "description": "LANE JT's collections are always warmly welcomed by women every time they are launched. With a young and creative design team, experienced and passionate tailors, LANE JT has earned its place in the domestic fashion market, especially in the fashion capital Milan, and represented Vietnam International Fashion Week 2016. As time goes on, Chà Mi has become more professional and beautiful. The black tailored trousers are perfect for the workplace, while the lace dresses are an excellent choice for attending parties. If you are struggling to find a meaningful and practical gift for your beloved one this Valentine's season, you cannot overlook these 10 brands.",
+    "facebook": "https://www.facebook.com/lanejtvn/",
+    "instagram": "https://www.instagram.com/lanejtvn/?hl=en",
+    "image": ["shop-7-0", "shop-7-1", "shop-7-2", "shop-7-3", "shop-7-4", "shop-7-5", "shop-7-6", "shop-7-7"],
+    "address": "84 Nguyen Trai, W. Pham Ngu Lao, D. 1, HCMC",
+    "coordinate": {
+        "latitude": 10.769555396568391,
+        "longtitude": 106.6893439826547
+    },
+    "loved": false,
+    "price": "$$$"
+    },
+    {
+    "id": 8,
+    "name": "Freckle",
+    "description": "The Freckles Studios is a leading Vietnamese fashion brand that embraces a unique blend of local heart and global vision. They believe that clothing is more than just fabric; it's an expression of individuality and empowerment. They take pride in creating versatile pieces that cater to women of all styles, allowing them to embrace their true selves and radiate confidence. Their dream items are not only fashionable but also designed with the highest quality, ensuring a delightful and comfortable wearing experience. With their free shipping and hassle-free 3-day return policy, shopping with them is a breeze. So, come and explore our curated collection, where you'll find the perfect pieces to bring out the best version of yourself. ",
+    "facebook": "https://www.facebook.com/freckles.studios/",
+    "instagram": "https://www.instagram.com/thefrecklestudios/?hl=en",
+    "image": ["shop-8-0", "shop-8-1", "shop-8-2", "shop-8-3", "shop-8-4", "shop-8-5", "shop-8-6", "shop-8-7"],
+    "address": "26 Huynh Van Banh, W. 12, D. Phu Nhuan, HCMC",
+    "coordinate": {
+        "latitude": 10.775309417691972,
+        "longtitude": 106.68626453712437
+    },
+    "loved": true,
+    "price": "$"
+    },
+    {
+    "id": 9,
+    "name": "Daphale",
+    "description": "DAPHALE STUDIOS, a local Vietnamese brand helmed by Á hậu (Beauty Queen) Thảo Nhi Lê, embraces an elegant and feminine style. The brand's designs revolve around the iconic corset silhouette, accentuating the wearer's figure with confidence and allure. Their collection includes body-hugging dresses, separates, lingerie, swimwear, and beachwear, catering to various occasions with a touch of sophistication. DAPHALE STUDIOS' commitment to empowering women through fashion is evident in each meticulously tailored piece, celebrating the natural beauty of the wearer. With a versatile and inclusive wardrobe, the brand provides chic and captivating options for everyday wear and special occasions, making it a go-to destination for those seeking timeless elegance and allure.",
+    "facebook": "https://www.facebook.com/daphalestudios/",
+    "instagram": "https://www.instagram.com/daphalestudios/?hl=en",
+    "image": ["shop-9-0", "shop-9-1", "shop-9-2", "shop-9-3", "shop-9-4", "shop-9-5", "shop-9-6", "shop-9-7"],
+    "address": "272C Pasteur, W. 8, D. 3, HCMC",
+    "coordinate": {
+        "latitude": 10.788363116716898,
+        "longtitude": 106.69179199559089
+    },
+    "loved": true,
+    "price": "$$$"
+    },
+    {
+    "id": 10,
+    "name": "Elpis",
+    "description": "From the materials to the garment's form and intricate details, ELPIS Clothing ensures perfection in every aspect. Throughout the collection, the brand showcases a seamless blend of gentleness in shades of white and nude, and boldness in black. The linen, British cotton, and Korean velvet fabrics are delicately shaped with extended waistlines, adorned with classic fabric-covered buttons and delicate straps to accentuate slender shoulders, slim waists, and alluring backs of the women. The skilled tailors utilize precise cutting techniques to create impeccable silhouettes in each product.",
+    "facebook": "https://www.facebook.com/elpisclothing/",
+    "instagram": "https://www.instagram.com/elpisclothing/?hl=en",
+    "image": ["shop-10-0", "shop-10-1", "shop-10-2", "shop-10-3", "shop-10-4", "shop-10-5", "shop-10-6", "shop-10-7"],
+    "address": "270 Vo Van Tan, W. 5, D. 3, HCMC",
+    "coordinate": {
+        "latitude": 10.772240346213028,
+        "longtitude": 106.68594605141338
+    },
+    "loved": true,
+    "price": "$$$"
+    },
+    {
+    "id": 11,
+    "name": "Dottie",
+    "description": "Dottie is a pioneering fashion brand in Vietnam, catering to the trendy, free-spirited, and youthful style of young individuals. They pay meticulous attention to every detail in their designs and invest in quality materials and silhouettes to suit diverse fashion preferences. With a wide range of collections, Dottie empowers customers to express their unique fashion personalities confidently. They embrace inclusivity, welcoming all young, energetic, and confident girls to shine and be themselves. Dottie's commitment to staying ahead of fashion trends and fostering a positive and uplifting community makes it a standout brand in Vietnam, where every individual can feel celebrated and empowered.",
+    "facebook": "https://www.facebook.com/dottiestore/",
+    "instagram": "https://www.instagram.com/dottie.store/?hl=en",
+    "image": ["shop-11-0", "shop-11-1", "shop-11-2", "shop-11-3", "shop-11-4", "shop-11-5", "shop-11-6", "shop-11-7"],
+    "address": "170 Nguyen Trai, W. Ben Thanh, D. 1, HCMC",
+    "coordinate": {
+        "latitude": 10.770109415355789,
+        "longtitude": 106.68990097951665
+    },
+    "loved": true,
+    "price": "$"
+    },
+    {
+    "id": 12,
+    "name": "Nudieye",
+    "description": "Nudieye is a fashion brand that celebrates femininity and fosters a sense of serene lifestyle through minimalist and elegant designs. It encourages women to embrace their inner beauty and find tranquility in simplicity. With a contemporary spirit and a dedication to originality, each creation exudes sophistication and timeless charm. Nudieye's commitment to craftsmanship and ethical practices ensures the use of carefully selected materials, reflecting respect for the environment. The brand empowers women to express themselves authentically, providing a canvas for self-discovery and personal expression. Nudieye's designs capture the essence of modern femininity, offering a world of graceful authenticity and understated impact.",
+    "facebook": "https://www.facebook.com/Nudieye/?locale=vi_VN",
+    "instagram": "https://www.instagram.com/nudieye/?hl=en",
+    "image": ["shop-12-0", "shop-12-2", "shop-12-2", "shop-12-3", "shop-12-4", "shop-12-5", "shop-12-6", "shop-12-7"],
+    "address": "914 Tran Hung Dao, W. 5, D. 5, HCMC",
+    "coordinate": {
+        "latitude": 10.754023355148568,
+        "longtitude": 106.67367350908397
+    },
+    "loved": false,
+    "price": "$$"
+    },
+    {
+    "id": 13,
+    "name": "LIBÉ",
+    "description": "Founded in 2013, LIBÉ is a fashion brand dedicated to providing young women with simple yet modern wardrobe options that empower and celebrate individuality. Their creations reflect a harmonious blend of chic designs and wearable comfort, offering a diverse range of fashion choices suitable for various occasions. With a strong emphasis on authenticity and attention to detail, each product exudes joyous inspiration and a genuine commitment to customer satisfaction. LIBÉ continues to be a beloved fashion destination, leaving an indelible mark in the hearts of its customers, empowering them to confidently express their unique personalities through fashion.",
+    "facebook": "https://www.facebook.com/libeworkshop/",
+    "instagram": "https://www.instagram.com/libeworkshop/?hl=en",
+    "image": ["shop-13-0", "shop-13-1", "shop-13-2", "shop-13-3", "shop-13-4", "shop-13-5", "shop-13-6", "shop-13-7"],
+    "address": "52 Nguyen Trai, W. Pham Ngu Lao, D 1, HCMC",
+    "coordinate": {
+        "latitude": 10.766979106898257,
+        "longtitude": 106.68791597498381
+    },
+    "loved": true,
+    "price": "$$"
+    },
+    {
+    "id": 14,
+    "name": "Errorist",
+    "description": "Errorist is a fashion brand catering to edgy and confident women with its alluring and slightly provocative designs. From sexy ensembles to chic streetwear, the brand embraces diversity in fashion preferences, empowering women to express their unique personalities fearlessly. Alongside the enticing pieces, Errorist also offers basic tees for those who prefer a simple yet stylish look. The brand's dedication to quality ensures each piece is not only fashion-forward but also comfortable and long-lasting. Beyond clothing, Errorist aims to create a community of fierce women who embrace their individuality and stand unapologetically in their uniqueness. It stands as a symbol of self-expression and empowerment, inspiring women to break free from societal norms and showcase their inner confidence through fashion.",
+    "facebook": "https://www.facebook.com/ErroristSG/",
+    "instagram": "https://www.instagram.com/errorist.ltd/?hl=en",
+    "image": ["shop-14-0", "shop-14-1", "shop-14-2", "shop-14-3", "shop-14-4", "shop-14-5", "shop-14-6", "shop-14-7"],
+    "address": "152 Tran Quang Dieu, D. 3, HCMC",
+    "coordinate": {
+        "latitude": 10.766304368481796,
+        "longtitude": 106.68910681121928
+    },
+    "loved": false,
+    "price": "$"
+    },
+    {
+    "id": 15,
+    "name": "Falette",
+    "description": "For the fashion-forward ladies who adore feminine and voluminous styles, Falette Studio is a name that needs no introduction. Known for its ethereal and whimsical designs, this brand caters to those who love to don flowy and romantic outfits, especially with puff sleeves as a standout feature. Falette Studio's color palette extends beyond the versatile and easy-to-wear shades like beige, white, and black, as it embraces the gentle charm of pastel hues. The brand's attention to delicate details, such as bow ties and sheer materials, amplifies the overall dreamy and graceful aesthetic. With a focus on creating clothing that exudes both comfort and elegance, Falette Studio has captured the hearts of fashion enthusiasts who seek to express their individuality through enchanting and tender fashion choices.",
+    "facebook": "https://www.facebook.com/falettestudio/",
+    "instagram": "https://www.instagram.com/falette.studio/?hl=en",
+    "image": ["shop-15-0", "shop-15-1", "shop-15-2", "shop-15-3", "shop-15-4", "shop-15-5", "shop-15-6", "shop-15-7"],
+    "address": "56 Pho Duc Chinh, W. Nguyen Thai Binh, D. 1, HCMC",
+    "coordinate": {
+        "latitude": 10.768736479806197,
+        "longtitude": 106.69997748718747
+    },
+    "loved": false,
+    "price": "$$"
+    },
+    {
+    "id": 16,
+    "name": "Mangata",
+    "description": "Despite being a newcomer in the Vietnamese fashion industry, Mangata has left a lasting impression on the beloved community with its playful approach to materials and signature color palette, along with its ability to seamlessly blend diverse styles together, creating a truly perfect combination. With its unique, youthful, and innovative fashion designs, Mangata conveys the spirit of party fashion through its creative use of materials, whimsical prints, and vibrant color palette on body-hugging garments adorned with delicate ruffles, as well as on trendy and dynamic mini skirts. This fresh and energetic brand exudes a sense of fun and celebration, making it a favorite among fashion enthusiasts who seek out bold and daring styles.",
+    "facebook": "https://www.facebook.com/mangata.vn/",
+    "instagram": "https://www.instagram.com/mangata.vn/?hl=en",
+    "image": ["shop-16-0", "shop-16-1", "shop-16-2", "shop-16-3", "shop-16-4", "shop-16-5", "shop-16-6", "shop-16-7"],
+    "address": "140 Nguyen Trai, W. 1, Ho Chi Minh City, Vietnam",
+    "coordinate": {
+        "latitude": 10.76968794882479,
+        "longtitude": 106.69060042442587
+    },
+    "loved": true,
+    "price": "$"
+    },
+    {
+    "id": 17,
+    "name": "She By Shj",
+    "description": "Shebyshj is a pioneering local fashion brand in Saigon, catering to the dynamic and modern #CityGirls with dedicated, high-quality, and on-trend designs at attractive prices. Each unique design blends multiple colors, allowing for versatile mix&match styles that stand out and follow the latest trends. The brand's focus on comfort and durability ensures that fashion-forward individuals can confidently express their individuality and personality through their clothing choices. Shebyshj stays at the forefront of the fashion industry, constantly updating collections to match evolving trends and cater to the diverse preferences of its customers, making it the go-to destination for young and fashionable city dwellers seeking stylish and empowering fashion choices.",
+    "facebook": "https://www.facebook.com/shebyshj/",
+    "instagram": "https://www.instagram.com/she.by.shj/?hl=en",
+    "image": ["shop-17-0", "shop-17-1", "shop-17-2", "shop-17-3", "shop-17-4", "shop-17-5", "shop-17-6", "shop-17-7"],
+    "address": "234 Vo Van Tan, W. 5, D. 3, HCMC",
+    "coordinate": {
+        "latitude": 10.772608127934122,
+        "longtitude": 106.6866411090843
+    },
+    "loved": false,
+    "price": "$"
+    },
+    {
+    "id": 18,
+    "name": "Tartan",
+    "description": "Tartan's appeal lies in its mastery of color block trends and vibrant hues, attracting devoted patrons seeking a distinctive edge in the market. Their designs skillfully blend colors and layering techniques, creating eye-catching visuals that transcend seasons. Beyond aesthetics, Tartan prioritizes quality and figure-flattering silhouettes, ensuring garments stand the test of time and instill confidence in wearers. Versatile and adaptable, their collections suit various occasions, from summer to year-end festivities. Emphasizing self-expression, Tartan fosters a loyal fashion community through collaborations and innovative ideas, solidifying its position as a trendsetter and style authority.",
+    "facebook": "https://www.facebook.com/Tartan.offcial",
+    "instagram": "https://www.instagram.com/tartan_studios/?hl=en",
+    "image": ["shop-18-0", "shop-18-1", "shop-18-2", "shop-18-3", "shop-18-4", "shop-18-5", "shop-18-6", "shop-18-7"],
+    "address": "Eco Green Apartment, block C, Nguyen Van Linh, D.7, HCMC",
+    "coordinate": {
+        "latitude": 10.749212205370927,
+        "longtitude": 106.72423717017176
+    },
+    "loved": false,
+    "price": "$$"
+    }
+]

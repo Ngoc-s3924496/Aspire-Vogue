@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC74D7352A75083A006B94F2 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC74D7342A75083A006B94F2 /* Roboto-Regular.ttf */; };
+		EC9E17CF2A77762700D05815 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC9E17CE2A7775E300D05815 /* Roboto-Medium.ttf */; };
+		EC9E17D12A77AB2D00D05815 /* ShopDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9E17D02A77AB2D00D05815 /* ShopDetailView.swift */; };
+		EC9E17D62A77ED0A00D05815 /* Shops.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9E17D52A77ED0A00D05815 /* Shops.swift */; };
+		EC9E17E42A78096000D05815 /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = EC9E17E32A78096000D05815 /* Data.json */; };
+		EC9E17E82A7935A800D05815 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9E17E72A7935A800D05815 /* MapView.swift */; };
+		ECAEB99B2A797323002BB57C /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAEB99A2A797323002BB57C /* ModelData.swift */; };
+		ECAEB99D2A797352002BB57C /* ShopListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAEB99C2A797352002BB57C /* ShopListView.swift */; };
+		ECAEBA192A79A30D002BB57C /* ShopDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAEBA182A79A30D002BB57C /* ShopDataStore.swift */; };
+		ECE4134F2A75364100E8E774 /* Tangerine-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECE4134D2A75344100E8E774 /* Tangerine-Regular.ttf */; };
+		ECE413502A75364600E8E774 /* Avocalipss-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = ECE4134A2A7532F100E8E774 /* Avocalipss-Regular.otf */; };
 		ECF456002A73779B0053587A /* Aspire_VogueApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF455FF2A73779B0053587A /* Aspire_VogueApp.swift */; };
 		ECF456022A73779B0053587A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF456012A73779B0053587A /* ContentView.swift */; };
 		ECF456042A73779C0053587A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECF456032A73779C0053587A /* Assets.xcassets */; };
@@ -15,6 +26,9 @@
 		ECF4561B2A73779C0053587A /* Aspire_VogueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF4561A2A73779C0053587A /* Aspire_VogueUITests.swift */; };
 		ECF4561D2A73779C0053587A /* Aspire_VogueUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF4561C2A73779C0053587A /* Aspire_VogueUITestsLaunchTests.swift */; };
 		ECF4562A2A737A4E0053587A /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF456292A737A4E0053587A /* WelcomeView.swift */; };
+		ECF456332A74F7300053587A /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECF456322A74F7300053587A /* Roboto-Thin.ttf */; };
+		ECF456352A74F7460053587A /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECF456342A74F7460053587A /* Roboto-Bold.ttf */; };
+		ECF456372A74F7500053587A /* D-DIN-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = ECF456362A74F7500053587A /* D-DIN-Bold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +49,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC74D7342A75083A006B94F2 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		EC9E17CE2A7775E300D05815 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		EC9E17D02A77AB2D00D05815 /* ShopDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopDetailView.swift; sourceTree = "<group>"; };
+		EC9E17D52A77ED0A00D05815 /* Shops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shops.swift; sourceTree = "<group>"; };
+		EC9E17E32A78096000D05815 /* Data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
+		EC9E17E72A7935A800D05815 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		ECAEB99A2A797323002BB57C /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		ECAEB99C2A797352002BB57C /* ShopListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopListView.swift; sourceTree = "<group>"; };
+		ECAEB99E2A797475002BB57C /* Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Data.json; path = "Aspire Vogue/Data.json"; sourceTree = SOURCE_ROOT; };
+		ECAEBA182A79A30D002BB57C /* ShopDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopDataStore.swift; sourceTree = "<group>"; };
+		ECE4134A2A7532F100E8E774 /* Avocalipss-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Avocalipss-Regular.otf"; sourceTree = "<group>"; };
+		ECE4134D2A75344100E8E774 /* Tangerine-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tangerine-Regular.ttf"; sourceTree = "<group>"; };
+		ECE4134E2A75351800E8E774 /* Tangerine-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tangerine-Bold.ttf"; sourceTree = "<group>"; };
 		ECF455FC2A73779B0053587A /* Aspire Vogue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aspire Vogue.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECF455FF2A73779B0053587A /* Aspire_VogueApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aspire_VogueApp.swift; sourceTree = "<group>"; };
 		ECF456012A73779B0053587A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +73,10 @@
 		ECF4561A2A73779C0053587A /* Aspire_VogueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aspire_VogueUITests.swift; sourceTree = "<group>"; };
 		ECF4561C2A73779C0053587A /* Aspire_VogueUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aspire_VogueUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		ECF456292A737A4E0053587A /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		ECF4562D2A74E28E0053587A /* Aspire-Vogue-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Aspire-Vogue-Info.plist"; sourceTree = SOURCE_ROOT; };
+		ECF456322A74F7300053587A /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		ECF456342A74F7460053587A /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		ECF456362A74F7500053587A /* D-DIN-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "D-DIN-Bold.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +107,8 @@
 		ECF455F32A73779B0053587A = {
 			isa = PBXGroup;
 			children = (
-				ECF455FE2A73779B0053587A /* Aspire Vogue */,
 				ECF4560F2A73779C0053587A /* Aspire VogueTests */,
+				ECF455FE2A73779B0053587A /* Aspire Vogue */,
 				ECF456192A73779C0053587A /* Aspire VogueUITests */,
 				ECF455FD2A73779B0053587A /* Products */,
 			);
@@ -96,11 +127,20 @@
 		ECF455FE2A73779B0053587A /* Aspire Vogue */ = {
 			isa = PBXGroup;
 			children = (
+				ECF456382A74F76E0053587A /* font */,
+				ECF4562D2A74E28E0053587A /* Aspire-Vogue-Info.plist */,
 				ECF455FF2A73779B0053587A /* Aspire_VogueApp.swift */,
 				ECF456012A73779B0053587A /* ContentView.swift */,
 				ECF456032A73779C0053587A /* Assets.xcassets */,
 				ECF456052A73779C0053587A /* Preview Content */,
 				ECF456292A737A4E0053587A /* WelcomeView.swift */,
+				EC9E17D02A77AB2D00D05815 /* ShopDetailView.swift */,
+				EC9E17D52A77ED0A00D05815 /* Shops.swift */,
+				EC9E17E32A78096000D05815 /* Data.json */,
+				EC9E17E72A7935A800D05815 /* MapView.swift */,
+				ECAEB99A2A797323002BB57C /* ModelData.swift */,
+				ECAEB99C2A797352002BB57C /* ShopListView.swift */,
+				ECAEBA182A79A30D002BB57C /* ShopDataStore.swift */,
 			);
 			path = "Aspire Vogue";
 			sourceTree = "<group>";
@@ -108,6 +148,7 @@
 		ECF456052A73779C0053587A /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				ECAEB99E2A797475002BB57C /* Data.json */,
 				ECF456062A73779C0053587A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -128,6 +169,21 @@
 				ECF4561C2A73779C0053587A /* Aspire_VogueUITestsLaunchTests.swift */,
 			);
 			path = "Aspire VogueUITests";
+			sourceTree = "<group>";
+		};
+		ECF456382A74F76E0053587A /* font */ = {
+			isa = PBXGroup;
+			children = (
+				ECE4134E2A75351800E8E774 /* Tangerine-Bold.ttf */,
+				ECF456362A74F7500053587A /* D-DIN-Bold.otf */,
+				ECF456342A74F7460053587A /* Roboto-Bold.ttf */,
+				ECE4134A2A7532F100E8E774 /* Avocalipss-Regular.otf */,
+				ECE4134D2A75344100E8E774 /* Tangerine-Regular.ttf */,
+				EC9E17CE2A7775E300D05815 /* Roboto-Medium.ttf */,
+				ECF456322A74F7300053587A /* Roboto-Thin.ttf */,
+				EC74D7342A75083A006B94F2 /* Roboto-Regular.ttf */,
+			);
+			path = font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,8 +290,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC9E17CF2A77762700D05815 /* Roboto-Medium.ttf in Resources */,
+				ECE413502A75364600E8E774 /* Avocalipss-Regular.otf in Resources */,
+				EC9E17E42A78096000D05815 /* Data.json in Resources */,
+				ECE4134F2A75364100E8E774 /* Tangerine-Regular.ttf in Resources */,
 				ECF456072A73779C0053587A /* Preview Assets.xcassets in Resources */,
+				EC74D7352A75083A006B94F2 /* Roboto-Regular.ttf in Resources */,
+				ECF456352A74F7460053587A /* Roboto-Bold.ttf in Resources */,
 				ECF456042A73779C0053587A /* Assets.xcassets in Resources */,
+				ECF456332A74F7300053587A /* Roboto-Thin.ttf in Resources */,
+				ECF456372A74F7500053587A /* D-DIN-Bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +326,12 @@
 			files = (
 				ECF456022A73779B0053587A /* ContentView.swift in Sources */,
 				ECF4562A2A737A4E0053587A /* WelcomeView.swift in Sources */,
+				ECAEBA192A79A30D002BB57C /* ShopDataStore.swift in Sources */,
+				EC9E17D12A77AB2D00D05815 /* ShopDetailView.swift in Sources */,
+				EC9E17D62A77ED0A00D05815 /* Shops.swift in Sources */,
+				ECAEB99B2A797323002BB57C /* ModelData.swift in Sources */,
+				EC9E17E82A7935A800D05815 /* MapView.swift in Sources */,
+				ECAEB99D2A797352002BB57C /* ShopListView.swift in Sources */,
 				ECF456002A73779B0053587A /* Aspire_VogueApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,6 +493,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Aspire Vogue/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Aspire-Vogue-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -451,6 +523,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Aspire Vogue/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Aspire-Vogue-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
