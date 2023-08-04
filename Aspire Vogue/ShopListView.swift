@@ -8,23 +8,31 @@
 import SwiftUI
 
 struct ShopListView: View {
+    // Initialize variable
     @EnvironmentObject var shopData: ShopDataStore
     @AppStorage("appTheme") private var isDarkMode = false
     @State private var searchTerm = ""
+    
     var body: some View {
         NavigationView(){
             ZStack{
                 VStack{
+                    // Header
                     ListHeader(searchTerm: $searchTerm).padding(.bottom, -25)
                     List {
+                        // List view if user search
                         if (self.searchTerm != ""){
-                            if (shopData.shops.filter({$0.name.lowercased().contains(self.searchTerm.lowercased())})).count == 0{
+                            if
+                                // Show message if no search found
+                                (shopData.shops.filter({$0.name.lowercased().contains(self.searchTerm.lowercased())})).count == 0{
                                 Text("No shop found")
                                     .font(.custom("Roboto-Regular", size: 18))
                             }
                             else{
+                                // Loop and filter shop that have name contain search input
                                 ForEach(shopData.shops.filter({$0.name.lowercased().contains(self.searchTerm.lowercased())})){shop in
-                                    if (self.shopData.LovedFilter){
+                                    // Show loved shops and have search input
+                                    if (self.shopData.lovedFilter){
                                         if (shop.loved){
                                             ListRow(shop: shop)
                                                 .background(NavigationLink("", destination: ShopDetailView(shop: shop).navigationBarBackButtonHidden(true))).navigationTitle("")
@@ -32,6 +40,7 @@ struct ShopListView: View {
                                                 .listRowBackground(Color("scrollBackground"))
                                         }
                                     }
+                                    // Show all shops and have search input
                                     else{
                                         ListRow(shop: shop)
                                             .background(NavigationLink("", destination: ShopDetailView(shop: shop).navigationBarBackButtonHidden(true))).navigationTitle("")
@@ -41,9 +50,11 @@ struct ShopListView: View {
                                 }
                             }
                         }
+                        // List view if user don't use search
                         else{
                             ForEach(shopData.shops){ shop in
-                                if (self.shopData.LovedFilter){
+                                // Show loved shops
+                                if (self.shopData.lovedFilter){
                                     if (shop.loved){
                                         ListRow(shop: shop)
                                             .background(NavigationLink("", destination: ShopDetailView(shop: shop).navigationBarBackButtonHidden(true))).navigationTitle("")
@@ -51,6 +62,7 @@ struct ShopListView: View {
                                             .listRowBackground(Color("scrollBackground"))
                                     }
                                 }
+                                // Show all shops
                                 else{
                                     ListRow(shop: shop)
                                         .background(NavigationLink("", destination: ShopDetailView(shop: shop).navigationBarBackButtonHidden(true))).navigationTitle("")
@@ -64,101 +76,8 @@ struct ShopListView: View {
                     
                 }
             }
-        }.environment(\.colorScheme, isDarkMode ? .dark : .light)
-    }
-}
-
-struct ShopListView_Previews: PreviewProvider {
-    static var previews: some View {
-        ShopListView()
-            .environmentObject(ShopDataStore())
-    }
-}
-
-struct ListHeader: View {
-    @EnvironmentObject var shopData: ShopDataStore
-    @AppStorage("appTheme") private var isDarkMode = false
-    @Binding var searchTerm: String
-    var body: some View{
-        ZStack{
-            Color("headerColor").edgesIgnoringSafeArea(.top)
-                .frame(width: 450, height: 60)
-            HStack{
-                if (!shopData.SearchShow){
-                    Image("logo2")
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(width: 106.5, height: 96)
-                        .padding(.trailing, 120)
-                        .padding(.leading, -20)
-                    Button{
-                        self.shopData.LovedFilter.toggle()
-                    } label: {
-                        Image(shopData.LovedFilter ? "heart-fill" : "heart-outline")
-                            .resizable()
-                            .aspectRatio(contentMode: .fit)
-                            .frame(width: 25, height: 25)
-                            .padding(.top, -17.5)
-                            .padding(.trailing, 10)
-                    }
-                    Button{
-                        self.isDarkMode.toggle()
-                    } label: {
-                        Image("night")
-                            .resizable()
-                            .aspectRatio(contentMode: .fit)
-                            .frame(width: 25, height: 25)
-                            .padding(.top, -17.5)
-                            .padding(.trailing, 10)
-                    }
-                    
-                }
-                HStack{
-                    if (shopData.SearchShow){
-                        Image("search")
-                            .resizable()
-                            .aspectRatio(contentMode: .fit
-                            )
-                            .frame(width: 20, height: 20)
-                            .padding(.leading, 20)
-                            .padding(.trailing, 5)
-                        TextField("Shop search", text: $searchTerm)
-                            .padding(.vertical, 10)
-                            .foregroundColor(Color("itemColor"))
-                        Button{
-                            withAnimation(.easeIn(duration: 0.15)){
-                                shopData.SearchShow.toggle()
-                                searchTerm = ""
-                            }
-                            
-                        } label: {
-                            Image(systemName: "xmark").foregroundColor(Color("itemColor"))
-                        }.padding(.horizontal,15)
-                        
-                    }
-                    else{
-                        Button{
-                            withAnimation(.easeIn(duration: 0.15)){
-                                shopData.SearchShow.toggle()
-                            }
-                        } label: {
-                            Image("search")
-                                .resizable()
-                                .aspectRatio(contentMode: .fit
-                                )
-                                .frame(width: 25, height: 25)
-                                .padding(5)
-                        }
-                    }
-                }.background(!shopData.SearchShow ? .clear : Color("searchBarColor"))
-                    .cornerRadius(20)
-                    .padding(.top, !shopData.SearchShow ? -17.5 : 27)
-                    .padding(.bottom, !shopData.SearchShow ? 0 : 30)
-                    .padding(.horizontal, !shopData.SearchShow ? 0 : 36)
-                
-            }
-        }.padding(.top, -20)
-        
+        } // Manage app color scheme
+        .environment(\.colorScheme, isDarkMode ? .dark : .light)
     }
 }
 
@@ -193,5 +112,12 @@ struct ListRow: View{
             }
         }.padding(.leading, 30)
             .padding(.trailing, 30)
+    }
+}
+
+struct ShopListView_Previews: PreviewProvider {
+    static var previews: some View {
+        ShopListView()
+            .environmentObject(ShopDataStore())
     }
 }

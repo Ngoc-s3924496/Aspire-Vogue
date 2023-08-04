@@ -13,9 +13,10 @@
 		EC9E17D62A77ED0A00D05815 /* Shops.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9E17D52A77ED0A00D05815 /* Shops.swift */; };
 		EC9E17E42A78096000D05815 /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = EC9E17E32A78096000D05815 /* Data.json */; };
 		EC9E17E82A7935A800D05815 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9E17E72A7935A800D05815 /* MapView.swift */; };
-		ECAEB99B2A797323002BB57C /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAEB99A2A797323002BB57C /* ModelData.swift */; };
 		ECAEB99D2A797352002BB57C /* ShopListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAEB99C2A797352002BB57C /* ShopListView.swift */; };
 		ECAEBA192A79A30D002BB57C /* ShopDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAEBA182A79A30D002BB57C /* ShopDataStore.swift */; };
+		ECAEBA1B2A7CD75D002BB57C /* ShopListHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAEBA1A2A7CD75D002BB57C /* ShopListHeader.swift */; };
+		ECAEBA1D2A7CD798002BB57C /* PopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAEBA1C2A7CD798002BB57C /* PopView.swift */; };
 		ECE4134F2A75364100E8E774 /* Tangerine-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECE4134D2A75344100E8E774 /* Tangerine-Regular.ttf */; };
 		ECE413502A75364600E8E774 /* Avocalipss-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = ECE4134A2A7532F100E8E774 /* Avocalipss-Regular.otf */; };
 		ECF456002A73779B0053587A /* Aspire_VogueApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF455FF2A73779B0053587A /* Aspire_VogueApp.swift */; };
@@ -55,10 +56,11 @@
 		EC9E17D52A77ED0A00D05815 /* Shops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shops.swift; sourceTree = "<group>"; };
 		EC9E17E32A78096000D05815 /* Data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
 		EC9E17E72A7935A800D05815 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-		ECAEB99A2A797323002BB57C /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		ECAEB99C2A797352002BB57C /* ShopListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopListView.swift; sourceTree = "<group>"; };
 		ECAEB99E2A797475002BB57C /* Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Data.json; path = "Aspire Vogue/Data.json"; sourceTree = SOURCE_ROOT; };
 		ECAEBA182A79A30D002BB57C /* ShopDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopDataStore.swift; sourceTree = "<group>"; };
+		ECAEBA1A2A7CD75D002BB57C /* ShopListHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopListHeader.swift; sourceTree = "<group>"; };
+		ECAEBA1C2A7CD798002BB57C /* PopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopView.swift; sourceTree = "<group>"; };
 		ECE4134A2A7532F100E8E774 /* Avocalipss-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Avocalipss-Regular.otf"; sourceTree = "<group>"; };
 		ECE4134D2A75344100E8E774 /* Tangerine-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tangerine-Regular.ttf"; sourceTree = "<group>"; };
 		ECE4134E2A75351800E8E774 /* Tangerine-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tangerine-Bold.ttf"; sourceTree = "<group>"; };
@@ -134,13 +136,14 @@
 				ECF456032A73779C0053587A /* Assets.xcassets */,
 				ECF456052A73779C0053587A /* Preview Content */,
 				ECF456292A737A4E0053587A /* WelcomeView.swift */,
+				ECAEBA1C2A7CD798002BB57C /* PopView.swift */,
+				EC9E17E72A7935A800D05815 /* MapView.swift */,
+				ECAEB99C2A797352002BB57C /* ShopListView.swift */,
+				ECAEBA1A2A7CD75D002BB57C /* ShopListHeader.swift */,
 				EC9E17D02A77AB2D00D05815 /* ShopDetailView.swift */,
+				ECAEBA182A79A30D002BB57C /* ShopDataStore.swift */,
 				EC9E17D52A77ED0A00D05815 /* Shops.swift */,
 				EC9E17E32A78096000D05815 /* Data.json */,
-				EC9E17E72A7935A800D05815 /* MapView.swift */,
-				ECAEB99A2A797323002BB57C /* ModelData.swift */,
-				ECAEB99C2A797352002BB57C /* ShopListView.swift */,
-				ECAEBA182A79A30D002BB57C /* ShopDataStore.swift */,
 			);
 			path = "Aspire Vogue";
 			sourceTree = "<group>";
@@ -324,13 +327,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECAEBA1D2A7CD798002BB57C /* PopView.swift in Sources */,
 				ECF456022A73779B0053587A /* ContentView.swift in Sources */,
 				ECF4562A2A737A4E0053587A /* WelcomeView.swift in Sources */,
 				ECAEBA192A79A30D002BB57C /* ShopDataStore.swift in Sources */,
 				EC9E17D12A77AB2D00D05815 /* ShopDetailView.swift in Sources */,
 				EC9E17D62A77ED0A00D05815 /* Shops.swift in Sources */,
-				ECAEB99B2A797323002BB57C /* ModelData.swift in Sources */,
 				EC9E17E82A7935A800D05815 /* MapView.swift in Sources */,
+				ECAEBA1B2A7CD75D002BB57C /* ShopListHeader.swift in Sources */,
 				ECAEB99D2A797352002BB57C /* ShopListView.swift in Sources */,
 				ECF456002A73779B0053587A /* Aspire_VogueApp.swift in Sources */,
 			);

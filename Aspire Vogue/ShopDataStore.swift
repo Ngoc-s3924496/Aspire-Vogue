@@ -3,13 +3,13 @@ import Combine
 
 class ShopDataStore: ObservableObject {
     @Published var shops: [Shop]
-    @Published var LovedFilter: Bool
-    @Published var SearchShow: Bool
+    @Published var lovedFilter: Bool
+    @Published var searchShow: Bool
     
     init() {
         shops = decodeJsonFromJsonFile(jsonFile: "Data.json")
-        LovedFilter = false
-        SearchShow = false
+        lovedFilter = false
+        searchShow = false
     }
     
     // Method to toggle the loved state of a shop
@@ -19,6 +19,7 @@ class ShopDataStore: ObservableObject {
         }
     }
     
+    // Method to write shop data to Data.json
     func saveDataToFile() {
         let encoder = JSONEncoder()
         encoder.outputFormatting = .prettyPrinted
@@ -32,4 +33,22 @@ class ShopDataStore: ObservableObject {
             print("Error saving data to JSON file: \(error)")
         }
     }
+}
+
+// Method to read from Data.json
+func decodeJsonFromJsonFile(jsonFile: String) -> [Shop] {
+    if let file = Bundle.main.url(forResource: jsonFile, withExtension: nil){
+        if let data = try? Data(contentsOf: file) {
+            do {
+                let decoder = JSONDecoder()
+                let decoded = try decoder.decode([Shop].self, from: data)
+                return decoded
+            } catch let error {
+                fatalError("Failed to decode JSON: \(error)")
+            }
+        }
+    } else {
+        fatalError("Couldn't load \(jsonFile) file")
+    }
+    return [ ] as [Shop]
 }
