@@ -6,11 +6,12 @@
     "facebook": "https://www.facebook.com/huelleyrose/",
     "instagram": "https://www.instagram.com/huelleyrose/?hl=en",
     "image": ["shop-1-0", "shop-1-1", "shop-1-2", "shop-1-3", "shop-1-4", "shop-1-5", "shop-1-6", "shop-1-7"],
-    "address": "214 Hai Ba Trung, W. Tan Dinh, D. 1, HCMC",
+    "address": "214 Hai Ba Trung, Tan Dinh, D.1, HCM",
     "coordinate": {
         "latitude": 10.788363116716898,
         "longtitude": 106.69179199559089
     },
+    "category": ["StreetWear", "Punk"],
     "loved": true,
     "price": "$$$"
     },
@@ -21,11 +22,12 @@
     "facebook": "https://www.facebook.com/SwanShopHcm/",
     "instagram": "https://www.instagram.com/theswan.closet/?hl=en",
     "image": ["shop-2-0", "shop-2-1", "shop-2-2", "shop-2-3", "shop-2-4", "shop-2-5", "shop-2-6", "shop-2-7"],
-    "address": "448A Vo Van Tan, W. 5, D. 3, HCMC",
+    "address": "448A Vo Van Tan, W.5, D.3, HCM",
     "coordinate": {
         "latitude": 10.769649805662759,
         "longtitude": 106.6834164244259
     },
+    "category": ["Glamorous"],
     "loved": true,
     "price": "$$"
     },
@@ -36,11 +38,12 @@
     "facebook": "https://www.facebook.com/karlotta.concept/",
     "instagram": "https://www.instagram.com/karlotta_concept/?hl=en",
     "image": ["shop-3-0", "shop-3-1", "shop-3-2", "shop-3-3", "shop-3-4", "shop-3-5", "shop-3-6", "shop-3-7"],
-    "address": "249 Huynh Van Banh, W. 12, D. Phu Nhuan, HCMC",
+    "address": "249 Huynh Van Banh, D.Phu Nhuan, HCM",
     "coordinate": {
         "latitude": 10.79168999756117,
         "longtitude": 106.67578426916123
     },
+    "category": ["Glamorous", "Romantic"],
     "loved": false,
     "price": "$$"
     },
@@ -51,11 +54,12 @@
     "facebook": "https://www.facebook.com/tor.ducie/",
     "instagram": "https://www.instagram.com/tor.ducie/?hl=en",
     "image": ["shop-4-0", "shop-4-1", "shop-4-2", "shop-4-3", "shop-4-4", "shop-4-5", "shop-4-6", "shop-4-7"],
-    "address": "150/27 Nguyen Trai, W. Ben Thanh, D. 1, HCMC",
+    "address": "150/ 27 Nguyen Trai, Ben Thanh, D.1, HCM",
     "coordinate": {
         "latitude": 10.767836763364253,
         "longtitude": 106.68439268395366
     },
+    "category": ["Casual"],
     "loved": false,
     "price": "$"
     },
@@ -66,11 +70,12 @@
     "facebook": "https://www.facebook.com/dearmyjose/",
     "instagram": "https://www.instagram.com/dearjose.xo/?hl=en",
     "image": ["shop-5-0", "shop-5-1", "shop-5-2", "shop-5-3", "shop-5-4", "shop-5-5", "shop-5-6", "shop-5-7"],
-    "address": "49A Nguyen Trai, W. Pham Ngu Lao, D. 1, HCMC",
+    "address": "49A Nguyen Trai st, W.Pham Ngu Lao, D.1",
     "coordinate": {
         "latitude": 10.767150848489136,
         "longtitude": 106.68829088024879
     },
+    "category": ["Casual", "Romantic"],
     "loved": false,
     "price": "$$$"
     },
@@ -82,11 +87,12 @@
     "facebook": "https://www.facebook.com/normallifeco/",
     "instagram": "https://www.instagram.com/normallife.co/?hl=en",
     "image": ["shop-6-0", "shop-6-1", "shop-6-2", "shop-6-3", "shop-6-4", "shop-6-5", "shop-6-6", "shop-6-7"],
-    "address": "150/27 Nguyen Trai, D1, HCMC",
+    "address": "150/ 27 Nguyen Trai, Ben Thanh, D.1, HCM",
     "coordinate": {
         "latitude": 10.770219407357866,
         "longtitude": 106.68981605141339
     },
+    "category": ["Casual"],
     "loved": true,
     "price": "$$"
     },
@@ -97,11 +103,12 @@
     "facebook": "https://www.facebook.com/lanejtvn/",
     "instagram": "https://www.instagram.com/lanejtvn/?hl=en",
     "image": ["shop-7-0", "shop-7-1", "shop-7-2", "shop-7-3", "shop-7-4", "shop-7-5", "shop-7-6", "shop-7-7"],
-    "address": "84 Nguyen Trai, W. Pham Ngu Lao, D. 1, HCMC",
+    "address": "84 Nguyen Trai st, W. Pham Ngu Lao, D.1",
     "coordinate": {
         "latitude": 10.769555396568391,
         "longtitude": 106.6893439826547
     },
+    "category": ["Glamorous", "Romantic"],
     "loved": false,
     "price": "$$$"
     },
@@ -112,11 +119,12 @@
     "facebook": "https://www.facebook.com/freckles.studios/",
     "instagram": "https://www.instagram.com/thefrecklestudios/?hl=en",
     "image": ["shop-8-0", "shop-8-1", "shop-8-2", "shop-8-3", "shop-8-4", "shop-8-5", "shop-8-6", "shop-8-7"],
-    "address": "26 Huynh Van Banh, W. 12, D. Phu Nhuan, HCMC",
+    "address": "26 Huynh Van Banh, D.Phu Nhuan, HCM",
     "coordinate": {
         "latitude": 10.775309417691972,
         "longtitude": 106.68626453712437
     },
+    "category": ["Punk"],
     "loved": true,
     "price": "$"
     },
@@ -127,11 +135,12 @@
     "facebook": "https://www.facebook.com/daphalestudios/",
     "instagram": "https://www.instagram.com/daphalestudios/?hl=en",
     "image": ["shop-9-0", "shop-9-1", "shop-9-2", "shop-9-3", "shop-9-4", "shop-9-5", "shop-9-6", "shop-9-7"],
-    "address": "272C Pasteur, W. 8, D. 3, HCMC",
+    "address": "272C Pasteur st, W.8, D.3, HCM",
     "coordinate": {
         "latitude": 10.788363116716898,
         "longtitude": 106.69179199559089
     },
+    "category": ["Glamorous"],
     "loved": true,
     "price": "$$$"
     },
@@ -142,11 +151,12 @@
     "facebook": "https://www.facebook.com/elpisclothing/",
     "instagram": "https://www.instagram.com/elpisclothing/?hl=en",
     "image": ["shop-10-0", "shop-10-1", "shop-10-2", "shop-10-3", "shop-10-4", "shop-10-5", "shop-10-6", "shop-10-7"],
-    "address": "270 Vo Van Tan, W. 5, D. 3, HCMC",
+    "address": "270 Vo Van Tan, W.5, D.3, HCM",
     "coordinate": {
         "latitude": 10.772240346213028,
         "longtitude": 106.68594605141338
     },
+    "category": ["Glamorous"],
     "loved": true,
     "price": "$$$"
     },
@@ -157,11 +167,12 @@
     "facebook": "https://www.facebook.com/dottiestore/",
     "instagram": "https://www.instagram.com/dottie.store/?hl=en",
     "image": ["shop-11-0", "shop-11-1", "shop-11-2", "shop-11-3", "shop-11-4", "shop-11-5", "shop-11-6", "shop-11-7"],
-    "address": "170 Nguyen Trai, W. Ben Thanh, D. 1, HCMC",
+    "address": "170 Nguyen Trai, Ben Thanh, D.1, HCM",
     "coordinate": {
         "latitude": 10.770109415355789,
         "longtitude": 106.68990097951665
     },
+    "category": ["Streetwear", "Casual"],
     "loved": true,
     "price": "$"
     },
@@ -171,12 +182,13 @@
     "description": "Nudieye is a fashion brand that celebrates femininity and fosters a sense of serene lifestyle through minimalist and elegant designs. It encourages women to embrace their inner beauty and find tranquility in simplicity. With a contemporary spirit and a dedication to originality, each creation exudes sophistication and timeless charm. Nudieye's commitment to craftsmanship and ethical practices ensures the use of carefully selected materials, reflecting respect for the environment. The brand empowers women to express themselves authentically, providing a canvas for self-discovery and personal expression. Nudieye's designs capture the essence of modern femininity, offering a world of graceful authenticity and understated impact.",
     "facebook": "https://www.facebook.com/Nudieye/?locale=vi_VN",
     "instagram": "https://www.instagram.com/nudieye/?hl=en",
-    "image": ["shop-12-0", "shop-12-2", "shop-12-2", "shop-12-3", "shop-12-4", "shop-12-5", "shop-12-6", "shop-12-7"],
-    "address": "914 Tran Hung Dao, W. 5, D. 5, HCMC",
+    "image": ["shop-12-0", "shop-12-1", "shop-12-2", "shop-12-3", "shop-12-4", "shop-12-5", "shop-12-6", "shop-12-7"],
+    "address": "914 Tran Hung Dao, W.5, D.5, HCM",
     "coordinate": {
         "latitude": 10.754023355148568,
         "longtitude": 106.67367350908397
     },
+    "category": ["Casual"],
     "loved": false,
     "price": "$$"
     },
@@ -187,11 +199,12 @@
     "facebook": "https://www.facebook.com/libeworkshop/",
     "instagram": "https://www.instagram.com/libeworkshop/?hl=en",
     "image": ["shop-13-0", "shop-13-1", "shop-13-2", "shop-13-3", "shop-13-4", "shop-13-5", "shop-13-6", "shop-13-7"],
-    "address": "52 Nguyen Trai, W. Pham Ngu Lao, D 1, HCMC",
+    "address": "52 Nguyen Trai st, W.Pham Ngu Lao, D.1",
     "coordinate": {
         "latitude": 10.766979106898257,
         "longtitude": 106.68791597498381
     },
+    "category": ["Casual", "Streetwear"],
     "loved": true,
     "price": "$$"
     },
@@ -202,11 +215,12 @@
     "facebook": "https://www.facebook.com/ErroristSG/",
     "instagram": "https://www.instagram.com/errorist.ltd/?hl=en",
     "image": ["shop-14-0", "shop-14-1", "shop-14-2", "shop-14-3", "shop-14-4", "shop-14-5", "shop-14-6", "shop-14-7"],
-    "address": "152 Tran Quang Dieu, D. 3, HCMC",
+    "address": "152 Tran Quang Dieu, D.3, HCM",
     "coordinate": {
         "latitude": 10.766304368481796,
         "longtitude": 106.68910681121928
     },
+    "category": ["Casual"],
     "loved": false,
     "price": "$"
     },
@@ -217,11 +231,12 @@
     "facebook": "https://www.facebook.com/falettestudio/",
     "instagram": "https://www.instagram.com/falette.studio/?hl=en",
     "image": ["shop-15-0", "shop-15-1", "shop-15-2", "shop-15-3", "shop-15-4", "shop-15-5", "shop-15-6", "shop-15-7"],
-    "address": "56 Pho Duc Chinh, W. Nguyen Thai Binh, D. 1, HCMC",
+    "address": "56 Pho Duc Chinh st, D.1, HCM",
     "coordinate": {
         "latitude": 10.768736479806197,
         "longtitude": 106.69997748718747
     },
+    "category": ["Punk"],
     "loved": false,
     "price": "$$"
     },
@@ -232,11 +247,12 @@
     "facebook": "https://www.facebook.com/mangata.vn/",
     "instagram": "https://www.instagram.com/mangata.vn/?hl=en",
     "image": ["shop-16-0", "shop-16-1", "shop-16-2", "shop-16-3", "shop-16-4", "shop-16-5", "shop-16-6", "shop-16-7"],
-    "address": "140 Nguyen Trai, W. 1, Ho Chi Minh City, Vietnam",
+    "address": "140 Nguyen Trai, Ben Thanh D.1, HCM",
     "coordinate": {
         "latitude": 10.76968794882479,
         "longtitude": 106.69060042442587
     },
+    "category": ["Punk", "Streetwear"],
     "loved": true,
     "price": "$"
     },
@@ -247,11 +263,12 @@
     "facebook": "https://www.facebook.com/shebyshj/",
     "instagram": "https://www.instagram.com/she.by.shj/?hl=en",
     "image": ["shop-17-0", "shop-17-1", "shop-17-2", "shop-17-3", "shop-17-4", "shop-17-5", "shop-17-6", "shop-17-7"],
-    "address": "234 Vo Van Tan, W. 5, D. 3, HCMC",
+    "address": "234 Vo Van Tan, W.5, D.3, HCM",
     "coordinate": {
         "latitude": 10.772608127934122,
         "longtitude": 106.6866411090843
     },
+    "category": ["Romantic", "Streetwear"],
     "loved": false,
     "price": "$"
     },
@@ -262,11 +279,12 @@
     "facebook": "https://www.facebook.com/Tartan.offcial",
     "instagram": "https://www.instagram.com/tartan_studios/?hl=en",
     "image": ["shop-18-0", "shop-18-1", "shop-18-2", "shop-18-3", "shop-18-4", "shop-18-5", "shop-18-6", "shop-18-7"],
-    "address": "Eco Green Apartment, block C, Nguyen Van Linh, D.7, HCMC",
+    "address": "Eco Green Apartment, block C, D.7, HCM",
     "coordinate": {
         "latitude": 10.749212205370927,
         "longtitude": 106.72423717017176
     },
+    "category": ["Punk"],
     "loved": false,
     "price": "$$"
     }

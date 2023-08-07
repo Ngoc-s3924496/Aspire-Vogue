@@ -1,9 +1,14 @@
-//
-//  ShopListHeader.swift
-//  Aspire Vogue
-//
-//  Created by Duong Vu Thanh Ngoc on 04/08/2023.
-//
+/*
+ RMIT University Vietnam
+ Course: COSC2659 iOS Development
+ Semester: 2023B
+ Assessment: Assignment 1
+ Author: Duong Vu Thanh Ngoc
+ ID: s3924496
+ Created  date: 31/07/2023
+ Last modified: 07/08/2023
+ Acknowledgement: SwiftUI
+ */
 
 import SwiftUI
 
@@ -12,6 +17,7 @@ struct ListHeader: View {
     @EnvironmentObject var shopData: ShopDataStore
     @AppStorage("appTheme") private var isDarkMode = false
     @Binding var searchTerm: String
+    @Binding var selected: String
     var body: some View{
         ZStack{
             // Background color
@@ -24,7 +30,7 @@ struct ListHeader: View {
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 106.5, height: 96)
-                        .padding(.trailing, 120)
+                        .padding(.trailing, 100)
                         .padding(.leading, -20)
                     // Button to toggle lovedFilter value
                     Button{
@@ -57,7 +63,7 @@ struct ListHeader: View {
                             .resizable()
                             .aspectRatio(contentMode: .fit
                             )
-                            .frame(width: 20, height: 20)
+                            .frame(width: 25, height: 25)
                             .padding(.leading, 20)
                             .padding(.trailing, 5)
                         TextField("Shop search", text: $searchTerm)

@@ -17,6 +17,10 @@
 		ECAEBA192A79A30D002BB57C /* ShopDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAEBA182A79A30D002BB57C /* ShopDataStore.swift */; };
 		ECAEBA1B2A7CD75D002BB57C /* ShopListHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAEBA1A2A7CD75D002BB57C /* ShopListHeader.swift */; };
 		ECAEBA1D2A7CD798002BB57C /* PopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAEBA1C2A7CD798002BB57C /* PopView.swift */; };
+		ECAEBA202A805452002BB57C /* ShopListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAEBA1F2A805452002BB57C /* ShopListRow.swift */; };
+		ECAEBA222A805526002BB57C /* ShopDetailHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAEBA212A805526002BB57C /* ShopDetailHeader.swift */; };
+		ECAEBA252A805886002BB57C /* ShopDetailBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAEBA242A805886002BB57C /* ShopDetailBody.swift */; };
+		ECAEBA272A8059CE002BB57C /* ShopDetailCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAEBA262A8059CE002BB57C /* ShopDetailCarousel.swift */; };
 		ECE4134F2A75364100E8E774 /* Tangerine-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECE4134D2A75344100E8E774 /* Tangerine-Regular.ttf */; };
 		ECE413502A75364600E8E774 /* Avocalipss-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = ECE4134A2A7532F100E8E774 /* Avocalipss-Regular.otf */; };
 		ECF456002A73779B0053587A /* Aspire_VogueApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF455FF2A73779B0053587A /* Aspire_VogueApp.swift */; };
@@ -61,6 +65,10 @@
 		ECAEBA182A79A30D002BB57C /* ShopDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopDataStore.swift; sourceTree = "<group>"; };
 		ECAEBA1A2A7CD75D002BB57C /* ShopListHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopListHeader.swift; sourceTree = "<group>"; };
 		ECAEBA1C2A7CD798002BB57C /* PopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopView.swift; sourceTree = "<group>"; };
+		ECAEBA1F2A805452002BB57C /* ShopListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopListRow.swift; sourceTree = "<group>"; };
+		ECAEBA212A805526002BB57C /* ShopDetailHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopDetailHeader.swift; sourceTree = "<group>"; };
+		ECAEBA242A805886002BB57C /* ShopDetailBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopDetailBody.swift; sourceTree = "<group>"; };
+		ECAEBA262A8059CE002BB57C /* ShopDetailCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopDetailCarousel.swift; sourceTree = "<group>"; };
 		ECE4134A2A7532F100E8E774 /* Avocalipss-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Avocalipss-Regular.otf"; sourceTree = "<group>"; };
 		ECE4134D2A75344100E8E774 /* Tangerine-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tangerine-Regular.ttf"; sourceTree = "<group>"; };
 		ECE4134E2A75351800E8E774 /* Tangerine-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tangerine-Bold.ttf"; sourceTree = "<group>"; };
@@ -106,6 +114,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ECAEBA1E2A80537E002BB57C /* WelcomeViewFolder */ = {
+			isa = PBXGroup;
+			children = (
+				ECF456292A737A4E0053587A /* WelcomeView.swift */,
+				ECAEBA1C2A7CD798002BB57C /* PopView.swift */,
+			);
+			path = WelcomeViewFolder;
+			sourceTree = "<group>";
+		};
+		ECAEBA232A8057DD002BB57C /* ShopListFolder */ = {
+			isa = PBXGroup;
+			children = (
+				ECAEB99C2A797352002BB57C /* ShopListView.swift */,
+				ECAEBA1A2A7CD75D002BB57C /* ShopListHeader.swift */,
+				ECAEBA1F2A805452002BB57C /* ShopListRow.swift */,
+			);
+			path = ShopListFolder;
+			sourceTree = "<group>";
+		};
+		ECAEBA282A805AE4002BB57C /* ShopDetailFolder */ = {
+			isa = PBXGroup;
+			children = (
+				EC9E17D02A77AB2D00D05815 /* ShopDetailView.swift */,
+				ECAEBA212A805526002BB57C /* ShopDetailHeader.swift */,
+				ECAEBA242A805886002BB57C /* ShopDetailBody.swift */,
+				ECAEBA262A8059CE002BB57C /* ShopDetailCarousel.swift */,
+				EC9E17E72A7935A800D05815 /* MapView.swift */,
+			);
+			path = ShopDetailFolder;
+			sourceTree = "<group>";
+		};
+		ECAEBA292A805AF2002BB57C /* DataFolder */ = {
+			isa = PBXGroup;
+			children = (
+				ECAEBA182A79A30D002BB57C /* ShopDataStore.swift */,
+				EC9E17D52A77ED0A00D05815 /* Shops.swift */,
+				EC9E17E32A78096000D05815 /* Data.json */,
+			);
+			path = DataFolder;
+			sourceTree = "<group>";
+		};
 		ECF455F32A73779B0053587A = {
 			isa = PBXGroup;
 			children = (
@@ -135,15 +184,10 @@
 				ECF456012A73779B0053587A /* ContentView.swift */,
 				ECF456032A73779C0053587A /* Assets.xcassets */,
 				ECF456052A73779C0053587A /* Preview Content */,
-				ECF456292A737A4E0053587A /* WelcomeView.swift */,
-				ECAEBA1C2A7CD798002BB57C /* PopView.swift */,
-				EC9E17E72A7935A800D05815 /* MapView.swift */,
-				ECAEB99C2A797352002BB57C /* ShopListView.swift */,
-				ECAEBA1A2A7CD75D002BB57C /* ShopListHeader.swift */,
-				EC9E17D02A77AB2D00D05815 /* ShopDetailView.swift */,
-				ECAEBA182A79A30D002BB57C /* ShopDataStore.swift */,
-				EC9E17D52A77ED0A00D05815 /* Shops.swift */,
-				EC9E17E32A78096000D05815 /* Data.json */,
+				ECAEBA1E2A80537E002BB57C /* WelcomeViewFolder */,
+				ECAEBA232A8057DD002BB57C /* ShopListFolder */,
+				ECAEBA282A805AE4002BB57C /* ShopDetailFolder */,
+				ECAEBA292A805AF2002BB57C /* DataFolder */,
 			);
 			path = "Aspire Vogue";
 			sourceTree = "<group>";
@@ -329,11 +373,15 @@
 			files = (
 				ECAEBA1D2A7CD798002BB57C /* PopView.swift in Sources */,
 				ECF456022A73779B0053587A /* ContentView.swift in Sources */,
+				ECAEBA202A805452002BB57C /* ShopListRow.swift in Sources */,
+				ECAEBA222A805526002BB57C /* ShopDetailHeader.swift in Sources */,
 				ECF4562A2A737A4E0053587A /* WelcomeView.swift in Sources */,
 				ECAEBA192A79A30D002BB57C /* ShopDataStore.swift in Sources */,
 				EC9E17D12A77AB2D00D05815 /* ShopDetailView.swift in Sources */,
+				ECAEBA252A805886002BB57C /* ShopDetailBody.swift in Sources */,
 				EC9E17D62A77ED0A00D05815 /* Shops.swift in Sources */,
 				EC9E17E82A7935A800D05815 /* MapView.swift in Sources */,
+				ECAEBA272A8059CE002BB57C /* ShopDetailCarousel.swift in Sources */,
 				ECAEBA1B2A7CD75D002BB57C /* ShopListHeader.swift in Sources */,
 				ECAEB99D2A797352002BB57C /* ShopListView.swift in Sources */,
 				ECF456002A73779B0053587A /* Aspire_VogueApp.swift in Sources */,
